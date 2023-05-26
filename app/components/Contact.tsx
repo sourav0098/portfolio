@@ -10,7 +10,7 @@ export default function Contact() {
   const templateId = process.env.NEXT_PUBLIC_EMAIL_TEMPLATE_ID || "";
   const publicKey = process.env.NEXT_PUBLIC_EMAIL_PUBLIC_KEY || "";
 
-  const form = useRef(document.createElement("form"));
+  const form = useRef<any>();
 
   const [sent, setSent] = useState(false);
   const [error, setError] = useState(false);

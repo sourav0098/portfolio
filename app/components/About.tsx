@@ -1,6 +1,7 @@
 import React from "react";
 import SectionTitle from "./SectionTitle";
 import { AiFillThunderbolt } from "react-icons/ai";
+import Image from "next/image";
 
 export default function About() {
   const skills = [
@@ -56,17 +57,49 @@ export default function About() {
           </ul>
         </div>
         <div className="grid w-full sm:w-2/3 sml:w-[370px] md:w-2/3 grid-cols-3 md:grid-cols-6 m-auto lgl:grid-cols-3 gap-8 items-center lgl:w-1/3">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" alt="Java" loading="lazy" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg" alt="Spring Boot" loading="lazy" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="Reactjs" loading="lazy" />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="Angular" loading="lazy" />
-          <img
+          <Image
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg"
+            alt="Java"
+            loading="lazy"
+            width={200}
+            height={200}
+          />
+          <Image
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original-wordmark.svg"
+            alt="Spring Boot"
+            loading="lazy"
+            width={200}
+            height={200}
+          />
+          <Image
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            alt="Reactjs"
+            loading="lazy"
+            width={200}
+            height={200}
+          />
+          <Image
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
+            alt="Angular"
+            loading="lazy"
+            width={200}
+            height={200}
+          />
+          <Image
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
             alt="Nextjs"
             className="invert"
             loading="lazy"
+            width={200}
+            height={200}
           />
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" alt="Typescript" loading="lazy" />
+          <Image
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"
+            alt="Typescript"
+            loading="lazy"
+            width={200}
+            height={200}
+          />
         </div>
       </div>
     </section>

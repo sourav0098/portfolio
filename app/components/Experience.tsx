@@ -1,5 +1,6 @@
 import React from 'react'
 import SectionTitle from './SectionTitle'
+import Image from 'next/image'
 
 export default function Experience() {
   return (
@@ -12,7 +13,11 @@ export default function Experience() {
         </div>
         {/* Timeline Element */}
         <div className='relative z-10'>
-          <img src="/assets/avetti.jpeg" alt="Avetti Commerce" className='rounded-full w-24 h-24 object-cover mb-1 sml:absolute mdl:mx-auto mdl:left-0 mdl:right-0' />
+          <Image
+            src="/assets/avetti.jpeg" alt="Avetti Commerce" className='rounded-full w-24 h-24 object-cover mb-1 sml:absolute mdl:mx-auto mdl:left-0 mdl:right-0'
+            width={200}
+            height={200}
+          ></Image>
           <div className='timeline-container text-textDark'>
             <div className="timeline-pointer" aria-hidden="true"></div>
             <div className='p-6 bg-timelineColor rounded-md shadow-md border-2 border-textGreen'>
@@ -44,7 +49,11 @@ export default function Experience() {
           </div>
         </div>
         <div className='relative z-10'>
-          <img src="/assets/humber.webp" alt="Humber College" className='rounded-full w-24 h-24 object-cover  mb-1  sml:absolute mdl:mx-auto mdl:left-0 mdl:right-0' />
+          <Image
+            src="/assets/humber.webp" alt="Humber College" className='rounded-full w-24 h-24 object-cover  mb-1  sml:absolute mdl:mx-auto mdl:left-0 mdl:right-0'
+            width={200}
+            height={200}
+          ></Image>
           <div className='timeline-container timeline-container-left'>
             <div className="timeline-pointer timeline-pointer-left" aria-hidden="true"></div>
             <div className='p-6 bg-timelineColor rounded-md shadow-md border-2 border-textGreen'>
@@ -61,7 +70,12 @@ export default function Experience() {
           </div>
         </div>
         <div className='relative z-10'>
-          <img src="/assets/ptu.png" alt="Avetti Commerce" className='w-24 h-24 object-cover sml:absolute mb-1 mdl:mx-auto mdl:left-0 mdl:right-0' />
+          <Image
+            src="/assets/ptu.png" alt="Avetti Commerce" className='w-24 h-24 object-cover sml:absolute mb-1 mdl:mx-auto mdl:left-0 mdl:right-0'
+            width={200}
+            height={200}
+          >
+          </Image>
           <div className='timeline-container'>
             <div className="timeline-pointer" aria-hidden="true"></div>
             <div className='p-6 bg-timelineColor rounded-md shadow-md border-2 border-textGreen'>
