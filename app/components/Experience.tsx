@@ -3,7 +3,7 @@ import SectionTitle from './SectionTitle'
 
 export default function Experience() {
   return (
-    <section id='experience' className="max-w-contentContainer mx-auto py-10 lgl:py-18">
+    <section id='experience' className="max-w-contentContainer mx-auto py-10 lgl:py-18 flex flex-col gap-4">
       <SectionTitle title='Experience' />
       <div className='container relative mx-auto px-6 flex flex-col space-y-8'>
         {/* Center line */}

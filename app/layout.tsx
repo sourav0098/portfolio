@@ -14,9 +14,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="w-full h-screen font-bodyFont bg-gradient-to-r from-body1 from-20% to-body2 t0-80% text-textLight overflow-x-hidden overflow overflow-y-scroll">
+      <body className="w-full h-screen font-bodyFont bg-gradient-to-r from-body1 from-20% to-body2 t0-80% text-textLight overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-textDark/20 scrollbar-thumb-textDark/60">
         <Navbar />
-        {children}</body>
+        {children}
+      </body>
     </html>
   );
 }

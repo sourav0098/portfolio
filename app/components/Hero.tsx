@@ -1,12 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   return (
     <section
       id="home"
-      className="max-w-container mt-24 mx-auto py-10 mdl:py-24 flex items-center justify-evenly flex-wrap mdl:px-10 lgl:px-4"
+      className="max-w-container mx-auto py-10 mdl:py-24 flex items-center justify-evenly flex-wrap mdl:px-10 lgl:px-4"
     >
       <div className="flex flex-col gap-4 lgl:gap-4">
         <motion.h3
@@ -36,14 +37,16 @@ export default function Hero() {
         >
           I am a skilled web developer with strong foundation in Java and Springboot. My proficiency extends to front-end and back-end development, allowing me to create seamless web applications. I specialize in using React and its ecosystem to build user-friendly and responsive interfaces.
         </motion.p>
-        <motion.button
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.8 }}
-          className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
-        >
-          Check out my projects!
-        </motion.button>
+        <Link href="#projects" aria-label="Check out my projects">
+          <motion.button
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.8 }}
+            className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
+          >
+            Check out my projects!
+          </motion.button>
+        </Link>
       </div>
       <motion.div
         initial={{ opacity: 0 }}
