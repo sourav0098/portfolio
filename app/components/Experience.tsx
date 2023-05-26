@@ -42,7 +42,7 @@ export default function Experience() {
                   Developed and documented REST and GraphQL APIs ensuring server-side validation for long-term maintainability and enhanced reliability
                 </li>
                 <li>
-                  Conducted testing using <span className='text-textGreen'>JUnit</span> and <span className='text-textGreen'>Mockito</span> to ensure that the code was bug-free and met all project requirements, ensuring a high-quality product for the company.
+                  Conducted testing using <span className='text-textGreen'>JUnit</span> and <span className='text-textGreen'>Mockito</span> to ensure that the code was bug-free and met all project requirements, ensuring a high-quality product for the company
                 </li>
               </ul>
             </div>
@@ -64,7 +64,7 @@ export default function Experience() {
               </div>
               <h6 className='italic pb-3 text-sm sml:text-md tracking-wide text-textDark'>Humber College, Toronto, ON</h6>
               <p className='text-textDark text-sm'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus maxime sunt saepe eius quibusdam quam nesciunt impedit eos, mollitia excepturi soluta quasi facere.
+                Throughout this program, I gained valuable knowledge and hands-on experience in various technologies related to web development. I explored various technolgies including React, Java, Springboot, enabling me to build robust and dynamic web applications. Additionally, I had the opportunity to collaborate on both group and individual projects, further enhancing my problem-solving skills and fostering my ability to work effectively in a team environment
               </p>
             </div>
           </div>
@@ -86,7 +86,7 @@ export default function Experience() {
               </div>
               <h6 className='italic pb-3 text-sm sml:text-md tracking-wide text-textDark'>PTU University, India </h6>
               <p className='text-textDark text-sm'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus maxime sunt saepe eius quibusdam quam nesciunt impedit eos, mollitia excepturi soluta quasi facere.
+              I hold a Bachelor's degree in Electronics and Communication Engineering, which provided me with a comprehensive understanding of electronics and communication systems. Through this program, I sharpened my analytical skills and developed strong problem-solving abilities, enabling me to tackle complex challenges effectively
               </p>
             </div>
           </div>
