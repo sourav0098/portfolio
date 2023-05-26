@@ -86,7 +86,7 @@ export default function Experience() {
               </div>
               <h6 className='italic pb-3 text-sm sml:text-md tracking-wide text-textDark'>PTU University, India </h6>
               <p className='text-textDark text-sm'>
-              I hold a Bachelor's degree in Electronics and Communication Engineering, which provided me with a comprehensive understanding of electronics and communication systems. Through this program, I sharpened my analytical skills and developed strong problem-solving abilities, enabling me to tackle complex challenges effectively
+              I hold a Bachelor&apos;s degree in Electronics and Communication Engineering, which provided me with a comprehensive understanding of electronics and communication systems. Through this program, I sharpened my analytical skills and developed strong problem-solving abilities, enabling me to tackle complex challenges effectively
               </p>
             </div>
           </div>
