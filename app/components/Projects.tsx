@@ -44,9 +44,9 @@ export default function Projects() {
               latest electronics. The user-friendly frontend interfaces,
               catering to both admins and shoppers, offer convenient features
               like rich text editing and{" "}
-              <span className="text-textLight">Mapbox </span>address autofill.
+              <span className="text-textGreen">Mapbox </span>address autofill.
               QuickPik leverages{" "}
-              <span className="text-textLight">Image Kit</span> as a digital
+              <span className="text-textGreen">Image Kit</span> as a digital
               asset manager to optimize website image loading times by 60%
             </p>
             <div className="flex flex-wrap gap-x-4 gap-y-2">
