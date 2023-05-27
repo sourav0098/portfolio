@@ -25,6 +25,6 @@
     @apply text-xs tracking-wide border-2 border-textGreen px-3 py-1 text-textGreen rounded-3xl;
   }
   .active {
-    color: #64ffda !important;
+    color: #2a9e7f !important;
   }
 }
