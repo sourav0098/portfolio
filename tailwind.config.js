@@ -24,7 +24,7 @@ module.exports = {
         xl: "1280px",
       },
       fontFamily: {
-        navFont: ["Caveat"],
+        navFont: ["Caveat","sans-serif"],
         titleFont: ["sans-serif"],
         bodyFont: ["sans-serif"],
       },

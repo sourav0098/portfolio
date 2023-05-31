@@ -37,12 +37,11 @@ export default function Experience() {
                 <span className='skill-pill'>AWS</span>
               </div>
               <ul className='list-disc pl-6 text-sm'>
-                <li>Designed and developed a composable e-commerce web application, utilizing microservices to optimize performance and improve scalability</li>
+                <li>Developed a high-performance e-commerce web application using microservices architecture, resulting in a remarkable 30% improvement in response time</li>
                 <li>
-                  Developed and documented REST and GraphQL APIs ensuring server-side validation for long-term maintainability and enhanced reliability
-                </li>
+                  Implemented robust REST and GraphQL APIs with server-side validation, improving data integrity and system stability</li>
                 <li>
-                  Conducted testing using <span className='text-textGreen'>JUnit</span> and <span className='text-textGreen'>Mockito</span> to ensure that the code was bug-free and met all project requirements, ensuring a high-quality product for the company
+                  Conducted comprehensive testing using <span className='text-textGreen'>JUnit</span> and <span className='text-textGreen'>Mockito</span>, ensuring a bug-free application and minimizing post-production defects
                 </li>
               </ul>
             </div>
@@ -86,7 +85,7 @@ export default function Experience() {
               </div>
               <h6 className='italic pb-3 text-sm sml:text-md tracking-wide text-textDark'>PTU University, India </h6>
               <p className='text-textDark text-sm'>
-              I hold a Bachelor&apos;s degree in Electronics and Communication Engineering, which provided me with a comprehensive understanding of electronics and communication systems. Through this program, I sharpened my analytical skills and developed strong problem-solving abilities, enabling me to tackle complex challenges effectively
+                I hold a Bachelor&apos;s degree in Electronics and Communication Engineering, which provided me with a comprehensive understanding of electronics and communication systems. Through this program, I sharpened my analytical skills and developed strong problem-solving abilities, enabling me to tackle complex challenges effectively
               </p>
             </div>
           </div>
