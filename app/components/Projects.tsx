@@ -1,7 +1,7 @@
 import React from "react";
 import SectionTitle from "./SectionTitle";
 import Image from "next/image";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaYoutube } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
 
 export default function Projects() {
@@ -75,6 +75,15 @@ export default function Projects() {
                   <FaLink />
                 </span>
               </a>
+              <a
+                href="https://www.youtube.com/watch?v=zzqzRMgmRt4"
+                target="_blank"
+                aria-label="QuickPik"
+              >
+                <span className="w-8 h-8 text-2xl inline-flex items-center justify-content cursor-pointer hover:-translate-y-2 transition-all duration-300">
+                  <FaYoutube />
+                </span>
+              </a>
             </div>
           </div>
         </div>
@@ -101,7 +110,7 @@ export default function Projects() {
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-3 items-start text-left z-10 text-textDark">
             <a
-              href="https://quickpik.vercel.app/"
+              href="https://wisepal-tutor-finder.netlify.app/"
               target="_blank"
               className="hover:underline"
             >
