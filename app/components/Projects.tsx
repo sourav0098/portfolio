@@ -49,10 +49,11 @@ export default function Projects() {
               <span className="text-textGreen">Image Kit</span> as a digital
               asset manager to optimize website image loading times by 60%
             </p>
-            <div className="flex flex-wrap gap-x-4 gap-y-2">
+            <div className="flex flex-wrap gap-x-4 gap-y-2 justify-between">
               <span className="skill-pill">Reactjs</span>
               <span className="skill-pill">Java</span>
-              <span className="skill-pill">Springboot</span>
+              <span className="skill-pill">Spring Boot</span>
+              <span className="skill-pill">Spring Security</span>
               <span className="skill-pill">MySQL</span>
               <span className="skill-pill">AWS</span>
             </div>
@@ -76,7 +77,7 @@ export default function Projects() {
                 </span>
               </a>
               <a
-                href="https://www.youtube.com/watch?v=zzqzRMgmRt4"
+                href="https://www.youtube.com/watch?v=cj_zjM0ASgU"
                 target="_blank"
                 aria-label="QuickPik"
               >
@@ -91,6 +92,60 @@ export default function Projects() {
       {/* Project 2 */}
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-20">
         <div className="flex flex-col lg:flex-row-reverse gap-6">
+          <a
+            href="https://github.com/sourav0098/quizmaster-client"
+            target="_blank"
+            aria-label="QuizMaster"
+            className="w-full xl:w-1/2 h-auto relative group"
+          >
+            <div>
+              <Image
+                className="w-full h-full object-contain rounded-md"
+                src="/assets/project_angular.png"
+                alt="QuizMaster"
+                priority={false}
+                width={900}
+                height={700}
+              ></Image>
+            </div>
+          </a>
+          <div className="w-full xl:w-1/2 flex flex-col gap-3 items-start text-left z-10 text-textDark">
+            <a
+              href="https://github.com/sourav0098/quizmaster-client"
+              target="_blank"
+              className="hover:underline"
+            >
+              <h3 className="text-2xl font-bold">QuizMaster: Take a Quiz</h3>
+            </a>
+            <p className="text-sm">
+              QuizMaster is a platform where users can explore and take quizzes based on different categories. With a designated time duration for each quiz, users can put their knowledge to the test, answer questions within the given timeframe, and receive instant feedback on their performance.
+            </p>
+            <div className="flex flex-wrap gap-x-4 gap-y-2">
+              <span className="skill-pill">Angular</span>
+              <span className="skill-pill">TypeScript</span>
+              <span className="skill-pill">Java</span>
+              <span className="skill-pill">Spring Boot</span>
+              <span className="skill-pill">Spring Security</span>
+              <span className="skill-pill">MySQL</span>
+              <span className="skill-pill">Bootstrap</span>
+            </div>
+            <div className="flex flex-wrap gap-3">
+              <a
+                href="https://github.com/sourav0098/quizmaster-client"
+                target="_blank"
+                aria-label="Github"
+              >
+                <span className="w-8 h-8 text-2xl inline-flex items-center justify-content cursor-pointer hover:-translate-y-2 transition-all duration-300">
+                  <FaGithub />
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Project 3 */}
+      <div className="w-full flex flex-col items-center justify-center gap-28 mt-20">
+        <div className="flex flex-col lg:flex-row gap-6">
           <a
             href="https://wisepal-tutor-finder.netlify.app/"
             target="_blank"
@@ -153,9 +208,9 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      {/* Project 3 */}
+      {/* Project 4 */}
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-20">
-        <div className="flex flex-col lg:flex-row gap-6">
+        <div className="flex flex-col lg:flex-row-reverse gap-6">
           <a
             href="https://github.com/sourav0098/TechBlog"
             target="_blank"

@@ -39,10 +39,11 @@ export default function Experience() {
               <ul className='list-disc pl-6 text-sm'>
                 <li>Developed a high-performance e-commerce web application using microservices architecture, resulting in a remarkable 30% improvement in response time</li>
                 <li>Collaborated with UX/UI team and stakeholders to optimize the user interface, delivering a seamless shopping experience</li>
+                <li>Implemented Apache Kafka for real time inventory management, reducing inventory discrepancies</li>
                 <li>
-                  Implemented robust <span className='text-textGreen'>REST</span> and <span className='text-textGreen'>GraphQL APIs</span>  with server-side validation, improving data integrity and system stability</li>
+                  Built robust <span className='text-textGreen'>REST</span> and <span className='text-textGreen'>GraphQL APIs</span>  with server-side validation, improving data integrity and system stability</li>
                 <li>
-                  Conducted comprehensive testing using <span className='text-textGreen'>JUnit</span> and <span className='text-textGreen'>Mockito</span>, ensuring a bug-free application and minimizing post-production defects
+                  Utilized AWS for deployment and leveraging AWS S3 buckets for storing and managing static assets.
                 </li>
               </ul>
             </div>
