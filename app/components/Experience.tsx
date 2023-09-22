@@ -72,13 +72,41 @@ export default function Experience() {
         </div>
         <div className='relative z-10'>
           <Image
+            src="/assets/eme.png" alt="EME Technologies" className='rounded-full w-24 h-24 object-cover  mb-1  sml:absolute mdl:mx-auto mdl:left-0 mdl:right-0'
+            width={200}
+            height={200}
+          ></Image>
+          <div className='timeline-container'>
+            <div className="timeline-pointer" aria-hidden="true"></div>
+            <div className='p-6 bg-timelineColor rounded-md shadow-md border-2 border-textGreen'>
+              <div className='flex justify-between text-textDark  flex-wrap'>
+                <h4 className='tracking-wide font-semibold text-sm sml:text-md'>Software Developer Intern
+                </h4>
+                <span className='text-sm sml:text-md'>Jan 2020 - Jun 2020</span>
+              </div>
+              <h6 className='italic pb-3 text-sm sml:text-md tracking-wide text-textDark'>EME Technologies, India </h6>
+              <p className='text-textDark text-sm'>
+                <ul className='list-disc pl-6 text-sm'>
+                  <li>Worked on the development of multiple software solutions, implementing robust user interfaces, REST APIs and testing software products
+                  </li><li>
+                    Collaborated closely with product managers and stakeholders to gather requirements and ensure alignment with business objectives
+                  </li>
+                  <li>
+                    Implemented software development best practices, including code reviews, automated testing, and code quality metrics, leading to a 20% reduction in post-release defects</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className='relative z-10'>
+          <Image
             src="/assets/ptu.png" alt="Avetti Commerce" className='w-24 h-24 object-cover sml:absolute mb-1 mdl:mx-auto mdl:left-0 mdl:right-0'
             width={200}
             height={200}
           >
           </Image>
-          <div className='timeline-container'>
-            <div className="timeline-pointer" aria-hidden="true"></div>
+          <div className='timeline-container timeline-container-left'>
+            <div className="timeline-pointer timeline-pointer-left" aria-hidden="true"></div>
             <div className='p-6 bg-timelineColor rounded-md shadow-md border-2 border-textGreen'>
               <div className='flex justify-between text-textDark  flex-wrap'>
                 <h4 className='tracking-wide font-semibold text-sm sml:text-md'>B.Tech Electronics
