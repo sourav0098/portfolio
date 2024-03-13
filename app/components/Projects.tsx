@@ -33,7 +33,7 @@ export default function Projects() {
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-3 items-start xl:items-end xl:text-right z-10 text-textDark">
             <a
-              href="https://quickpik.vercel.app/"
+              href="https://github.com/sourav0098/e-commerce-client"
               target="_blank"
               className="hover:underline"
             >
@@ -65,15 +65,6 @@ export default function Projects() {
               >
                 <span className="w-8 h-8 text-2xl inline-flex items-center justify-content cursor-pointer hover:-translate-y-2 transition-all duration-300">
                   <FaGithub />
-                </span>
-              </a>
-              <a
-                href="https://quickpik.vercel.app/"
-                target="_blank"
-                aria-label="QuickPik"
-              >
-                <span className="w-8 h-8 text-2xl inline-flex items-center justify-content cursor-pointer hover:-translate-y-2 transition-all duration-300">
-                  <FaLink />
                 </span>
               </a>
               <a

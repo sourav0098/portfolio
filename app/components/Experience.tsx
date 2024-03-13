@@ -80,9 +80,9 @@ export default function Experience() {
             <div className="timeline-pointer" aria-hidden="true"></div>
             <div className='p-6 bg-timelineColor rounded-md shadow-md border-2 border-textGreen'>
               <div className='flex justify-between text-textDark  flex-wrap'>
-                <h4 className='tracking-wide font-semibold text-sm sml:text-md'>Software Developer Intern
+                <h4 className='tracking-wide font-semibold text-sm sml:text-md'>Software Developer
                 </h4>
-                <span className='text-sm sml:text-md'>Jan 2020 - Jun 2020</span>
+                <span className='text-sm sml:text-md'>Oct 2020 - Aug 2021</span>
               </div>
               <h6 className='italic pb-3 text-sm sml:text-md tracking-wide text-textDark'>EME Technologies, India </h6>
               <p className='text-textDark text-sm'>
@@ -91,6 +91,7 @@ export default function Experience() {
                   </li><li>
                     Collaborated closely with product managers and stakeholders to gather requirements and ensure alignment with business objectives
                   </li>
+                  <li>Embraced agile methodologies, resulting in a 10% increase in product delivery efficiency.</li>
                   <li>
                     Implemented software development best practices, including code reviews, automated testing, and code quality metrics, leading to a 20% reduction in post-release defects</li>
                 </ul>
